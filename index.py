@@ -14,6 +14,6 @@ def launchApp():
         print("\nPlease select either A or B")
         launchApp()
 
-
-print("Welcome to the Song Master 9000\nWould you like to...")
-launchApp()
+if __name__ == "__main__":
+    print("Welcome to the Song Master 9000\nWould you like to...")
+    launchApp()
